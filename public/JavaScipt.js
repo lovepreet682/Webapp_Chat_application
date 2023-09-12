@@ -25,8 +25,8 @@ const AddMessageFunction = (message, position) => {
     messgageElement.classList.add('message');
     messgageElement.classList.add(position);
     messageContainer.append(messgageElement);
-    
-    if(position=='incoming'){
+
+    if(position==='incoming'){
         audio.play();
     }
 }
